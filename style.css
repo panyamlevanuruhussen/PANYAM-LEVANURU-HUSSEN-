@@ -1,0 +1,380 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  #nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(254, 249, 246);
+    position: sticky;
+    top: 0px;
+    font-family: "Inter", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  #sec2 {
+    background-color: rgb(254, 249, 246);
+  }
+  #section7 {
+    margin-top: 500px;
+  }
+  #nav > div > a {
+    justify-content: space-around;
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(107, 107, 120);
+  }
+  #nav > div > button {
+    justify-content: space-around;
+    margin-left: 30px;
+  }
+  #sec1 {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(254, 249, 246);
+  }
+  #sec1 > button {
+    align-items: center;
+    margin: auto;
+  }
+  #sec1-1 {
+    width: 300px;
+    background-color: rgb(241, 242, 244);
+  }
+  #p3 {
+    background-color: rgb(241, 242, 244);
+    width: 300px;
+  }
+  
+  .pg {
+    display: inline-block;
+    border-radius: 20px;
+  }
+  #sec3 {
+    display: flex;
+    justify-content: space-around;
+  }
+  #sec3-1 {
+    margin-left: 100px;
+  }
+  #sec5 {
+    display: flex;
+    justify-content: space-around;
+  }
+  #sec5-1 {
+    margin-left: 100px;
+  }
+  
+  #sec4 {
+    display: flex;
+    justify-content: space-around;
+  }
+  #sec4-2 {
+    width: 35vw;
+  }
+  #sec4-3 {
+    margin-left: 200px;
+  }
+  #sec6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  #sec6-2 {
+    width: 35vw;
+  }
+  #sec6-3 {
+    margin-left: 200px;
+  }
+  .man {
+    display: inline-block;
+  }
+  #s7p1 {
+    width: 300px;
+    background-color: rgb(241, 242, 244);
+  }
+  #s7p2 {
+    width: 300px;
+    background-color: rgb(254, 233, 203);
+  }
+  #s7p3 {
+    width: 300px;
+    background-color: rgb(204, 234, 253);
+  }
+  #s7p4 {
+    width: 300px;
+    background-color: rgb(221, 244, 228);
+  }
+  #s7p5 {
+    width: 300px;
+    background-color: rgb(253, 222, 214);
+  }
+  #s7p6 {
+    width: 300px;
+    background-color: rgb(195, 156, 246);
+  }
+  #s7i {
+    background-color: lightgray;
+  }
+  #sec7 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #sec7-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #sec7 > img {
+    background-color: rgb(241, 242, 244);
+  }
+  .hi {
+    border: none;
+    align-items: center;
+  }
+  
+  #footer {
+    height: 350px;
+    font-size: 17px;
+    padding: 20px;
+    border: 1px solid lime;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+    border: 1px solid grey;
+    color: white;
+  }
+  .footertextcolor {
+    color: #8d7c84;
+  }
+  .milton {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .blog {
+    width: 333px;
+    height: 300px;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ready {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+  }
+  .ready > h1 {
+    font-size: 56px;
+  }
+  .ready > p {
+    width: 600px;
+    height: 64px;
+    font-size: 20px;
+    color: #6f6f7c;
+  }
+  .ready > .baby {
+    width: 184px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background-color: #f1f2f4;
+  }
+  .ready > .start {
+    color: white;
+    width: 220px;
+    height: 54px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+  }
+  .babycard {
+    display: flex;
+    width: 600px;
+    height: 180px;
+  }
+  .babycard > p {
+    width: 372px;
+    height: 107px;
+    padding: 16px;
+    background-color: #fee9cb;
+    border-radius: 10px;
+  }
+  .qestions > button {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background-color: #f1f2f4;
+  }
+  .qestions > h1 {
+    font-size: 56px;
+  }
+  .qestions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+  }
+  .qes1,
+  .qes2,
+  .qes3,
+  .qes4,
+  .qes5 {
+    width: 944px;
+    height: 140px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f2f4;
+    margin: 15px;
+  }
+  .bestplan > button {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background-color: #f1f2f4;
+  }
+  .bestplan > h1 {
+    font-size: 56px;
+  }
+  .plancard {
+    width: 384px;
+    height: 522px;
+    padding: 10px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .plancard > .free {
+    width: 86px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #e37474;
+    border-radius: 20px;
+  }
+  .plancard > .freep {
+    width: 320px;
+    height: 20px;
+    color: #807183;
+    font-size: 16px;
+  }
+  .plancard > .head > {
+    width: 150px;
+    height: 100px;
+  }
+  .head > h1 {
+    font-size: 40px;
+    text-shadow: 4px 4px 10px rgb(53, 247, 31);
+  }
+  .plancard > button {
+    border: none;
+    width: 320px;
+    height: 48px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+  }
+  .plancards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .bestplan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+  }
+  
+  .aboutus > .cardp1 > button {
+    border: none;
+    width: 310px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f1f2f4;
+    border-radius: 20px;
+  }
+  .cardp1 > h1 {
+    font-size: 56px;
+  }
+  .scrollcardtop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .scrollcard {
+    width: 504px;
+    height: 188px;
+    padding: 10px;
+    background-color: #beb8b8;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .scrollcardtop > img {
+    width: 40px;
+    height: 40px;
+  }
+  .naveen {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .allcards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 100px;
+  }
+  .cardp1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hussen {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .hussen {
+    animation: slide-in 5s ease 0s infinite normal;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translatex(-5%);
+    }
+    100% {
+      transform: translatex(5%);
+    }
+  }
+  #rating {
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
